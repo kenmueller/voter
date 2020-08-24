@@ -2,6 +2,7 @@
 	"name": "voter",
 	"version": "1.0.0",
 	"scripts": {
+		"prestart": "tsc",
 		"start": "node lib"
 	},
 	"dependencies": {
